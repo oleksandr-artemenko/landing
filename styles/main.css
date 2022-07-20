@@ -847,7 +847,7 @@ ol li:not(:last-child) {
     margin-right: 31px;
   }
 
-  .category__item:last-child {
+  .category__wrapper a:last-child {
     display: none;
   }
 
@@ -1124,7 +1124,7 @@ ol li:not(:last-child) {
     margin-right: 12px;
   }
 
-  .category__item:last-child {
+  .category__wrapper a:last-child {
     display: none;
   }
 
