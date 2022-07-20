@@ -782,6 +782,9 @@ ol li:not(:last-child) {
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
+  .cookie-popup__wrapper {
+    display: none;
+  }
   .header {
     justify-content: space-around;
     background: rgba(27, 4, 54, 0.8) !important;
@@ -1056,6 +1059,9 @@ ol li:not(:last-child) {
 }
 
 @media (min-width: 360px) and (max-width: 767px) {
+  .cookie-popup__wrapper {
+    display: none;
+  }
   .header {
     justify-content: space-around;
     background: rgba(27, 4, 54, 0.8) !important;
