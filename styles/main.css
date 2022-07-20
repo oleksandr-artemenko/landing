@@ -785,7 +785,7 @@ ol li:not(:last-child) {
   .header {
     justify-content: space-around;
     background: rgba(27, 4, 54, 0.8) !important;
-    padding: 11px 0px 12px;
+    padding: 11px 70px 12px;
   }
 
   .header__logo {
@@ -1043,6 +1043,12 @@ ol li:not(:last-child) {
   }
 }
 
+@media (min-width: 768px) and (max-width: 1000px) {
+  .header {
+    padding: 11px 10px 12px;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 850px) {
   .top__title {
     margin-top: -86px;
@@ -1053,7 +1059,7 @@ ol li:not(:last-child) {
   .header {
     justify-content: space-around;
     background: rgba(27, 4, 54, 0.8) !important;
-    padding: 11px 0px 12px;
+    padding: 11px 10px 12px;
   }
 
   .header__logo {
@@ -1366,6 +1372,10 @@ ol li:not(:last-child) {
     max-width: 243px;
   }
 
+  .header {
+    padding: 0px 10px 0px;
+  }
+
   .header__logo {
     margin-left: 0;
   }
@@ -1420,7 +1430,7 @@ ol li:not(:last-child) {
     max-width: 350px;
   }
   .header {
-    padding: 0px 0px 0px;
+    padding: 0px 10px 0px;
     min-height: 70px;
   }
 
