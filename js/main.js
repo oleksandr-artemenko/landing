@@ -3,6 +3,12 @@ const popup = document.querySelector(".cookie-popup__wrapper");
 const popupBtn = document.querySelector(".accept-btn");
 const popupLink = document.querySelector(".popup-link");
 
+document.addEventListener("DOMContentLoaded", () => {
+  if (sessionStorage.getItem("isAccept")) {
+    popup.style.display = "none";
+  }
+});
+
 document.addEventListener("scroll", () => {
   let height = window.scrollY;
 
@@ -15,5 +21,8 @@ document.addEventListener("scroll", () => {
   }
 });
 
-popupBtn.addEventListener("click", () => (popup.style.display = "none"));
+popupBtn.addEventListener("click", () => {
+  popup.style.display = "none";
+  sessionStorage.setItem("isAccept", true);
+});
 popupLink.addEventListener("click", () => (popup.style.display = "none"));
