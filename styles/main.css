@@ -300,12 +300,6 @@ b {
   align-items: center;
   justify-content: center;
   transition: 0.3s all;
-  cursor: pointer;
-}
-
-.brand__item:hover {
-  border: 1px solid #717171;
-  border-radius: 5px;
 }
 
 /* SLOTS-BLOCK */
