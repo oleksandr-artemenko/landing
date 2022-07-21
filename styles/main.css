@@ -1000,7 +1000,6 @@ ol li:not(:last-child) {
     background-repeat: no-repeat;
     margin-top: -28px;
     background-position: 100% 100%;
-    cursor: pointer;
   }
 
   .footer {
@@ -1287,7 +1286,6 @@ ol li:not(:last-child) {
     background-repeat: no-repeat;
     margin-top: -14px;
     background-position: 100% 100%;
-    cursor: pointer;
   }
 
   .footer {
